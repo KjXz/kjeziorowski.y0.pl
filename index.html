@@ -17,7 +17,7 @@
   </li>
   
   <li style="width:12.5%"><a class="w3-hover-indigo w3-text-white w3-center tablink" href="index.html"><i class="fa fa-home fa-fw"></i></a></li>
-  <li style="width:37.5%"><a class="w3-hide-small w3-hover-none w3-text-white w3-center">kjeziorowski.y0.pl</a></li>
+  <li style="width:37.5%"><a class="w3-hide-small w3-hover-none w3-text-white w3-center tablink" href="index.html">kjeziorowski.y0.pl</a></li>
   <li style="width:12.5%"><a class="w3-hide-small w3-hover-indigo w3-center tablink" href="#top" title="informacje o edukacji" onclick="openSection(event,'edukacja')">/edukacja</a></li>
   <li style="width:12.5%"><a class="w3-hide-small w3-hover-indigo w3-center tablink" href="#top" title="dostęp do CV" onclick="openSection(event,'cv')">/cv</a></li>
   <li style="width:12.5%"><a class="w3-hide-small w3-hover-indigo w3-center tablink" href="#top" title="wykonane projekty" onclick="openSection(event,'projekty')">/projekty</a></li>
@@ -61,8 +61,8 @@
           <hr />
 		  
 		  <p class="w3-large"><b><i class="fa fa-hand-spock-o fa-fw w3-margin-right w3-text-indigo"></i>Umiejętności</b></p>
-          <p><i class="fa fa-angle-right fa-fw"></i>HTML(5)<br>
-		  <i class="fa fa-angle-right fa-fw"></i>CSS(3)<br> 
+          <p><i class="fa fa-angle-right fa-fw"></i>HTML5<br>
+		  <i class="fa fa-angle-right fa-fw"></i>CSS3<br> 
 		  <i class="fa fa-angle-right fa-fw"></i>JavaScript<br>
 		  <i class="fa fa-angle-right fa-fw"></i>AngularJS<br>
 		  <i class="fa fa-angle-right fa-fw"></i>Bootstrap<br>
@@ -73,7 +73,7 @@
 		  <p>
 			<a href="https://www.facebook.com/karol.jeziorowski" target="_blank" title="Facebook - Karol Jeziorowski"><i class="fa fa-facebook-official fa-fw w3-hover-text-indigo w3-large"></i></a>
 			<a href="https://www.linkedin.com/in/karol-jeziorowski-4b865013a/" target="_blank" title="Linkedin - Karol Jeziorowski"><i class="fa fa-linkedin fa-fw w3-hover-text-indigo w3-large"></i></a>
-			<a href="" target="_blank" title="GitHub - Karol Jeziorowski"><i class="fa fa-github fa-fw w3-hover-text-indigo w3-large"></i></a>
+			<a href="https://www.github.com/KjXz" target="_blank" title="GitHub - Karol Jeziorowski"><i class="fa fa-github fa-fw w3-hover-text-indigo w3-large"></i></a>
 			<a href="skype:kjeziorowski?chat" target="_blank" title="Skype - Karol Jeziorowski"><i class="fa fa-skype fa-fw w3-hover-text-indigo w3-large"></i></a>
 		  </p>
         </div>
@@ -86,14 +86,16 @@
 
 	   <div id="profil" class="w3-container w3-card-2 w3-white section" title="Profil">
 			<h1 class="w3-text-grey w3-padding-16"><i class="fa fa-address-card-o fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Profil</h1>
-			<p id="1st">Witam, jestem Karol, interesuję się najnowszymi technologiami stron internetowych. Specjalizuję się w HTML, CSS oraz JavaScript.
-			Ciekawią mnie frameworki, które służą do tworzenia interfejsów stron internetowych (Bootstrap, W3.CSS) albo dzięki którym możemy tworzyć i rozwijać aplikacje na
-			pojedyńczej stronie internetowej (AngularJS). Tworzę i pracuję z bazami danych w oparciu o system zarządzania relacyjnymi bazami danych (MySQL).</p>
+			<p id="1st">Witam, jestem Karol, interesuję się najnowszymi technologiami stron internetowych. Specjalizuję się w&nbsp;HTML, CSS oraz JavaScript.
+			Ciekawią mnie frameworki, które służą do&nbsp;tworzenia interfejsów stron internetowych (Bootstrap, W3.CSS) albo dzięki którym możemy tworzyć i&nbsp;rozwijać aplikacje 
+			na&nbsp;pojedyńczej stronie internetowej (AngularJS). Tworzę i&nbsp;pracuję z bazami danych w&nbsp;oparciu o&nbsp;system zarządzania relacyjnymi bazami danych (MySQL).</p>
 			<hr />
-			<p id="2nd">Na stronie można znaleźć informacje na mój temat, możliwość skontaktowania się ze mną za pomocą telefonu, Skype czy poprzez media społecznościowe. 
-			Można znaleźć tutaj moje CV w formie pliku Word (<a id="w3c" href="files/CV-KarolJeziorowski.docx" target="_blank">.docx</a>) lub pliku PDF (<a id="w3c" href="files/CV-KarolJeziorowski.pdf" target="_blank">.pdf</a>).</p>
+			<p id="2nd">Na&nbsp;stronie można znaleźć informacje na&nbsp;mój temat, możliwość skontaktowania się ze mną za pomocą telefonu, Skype czy poprzez media społecznościowe. 
+			Można znaleźć tutaj moje CV w&nbsp;formie pliku Word (<a id="w3c" href="files/CV-KarolJeziorowski.docx" target="_blank">.docx</a>) lub pliku PDF (<a id="w3c" href="files/CV-KarolJeziorowski.pdf" target="_blank">.pdf</a>).</p>
 	   </div>
-			
+
+	   
+	<!-- EDUKACJA -->
       <div id="edukacja" class="w3-container w3-card-2 w3-white section" title="Edukacja" style="display:none">
         <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Edukacja</h1>
         <div class="w3-container">
@@ -120,15 +122,41 @@
         </div>
       </div>
 	  
-	        <div id="projekty" class="w3-container w3-card-2 w3-white section" title="Projekty" style="display:none">
-				<h1 class="w3-text-grey w3-padding-16"><i class="fa fa-save fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projekty</h1>
-				<p>Test</p>
-			</div>
-
+			
+	<!-- CV -->
 			<div id="cv" class="w3-container w3-card-2 w3-white section" title="CV" style="display:none">
 				<h1 class="w3-text-grey w3-padding-16"><i class="fa fa-file-o fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Curriculum Vitae</h1>
-				<p>Test</p>
+				<p><img src="images/foto1.jpg" class="w3-round w3-right" title="Karol Jeziorowski" /></p>
+				<h2>Karol Jeziorowski</h2>
+				<br />
+				<h4>Umiejętności zawodowe:</h4>
+				
+				<ul class="w3-ul">
+				<li><b>Technologie webowe:</b> HTML5, CSS3, JavaScript, AngularJS</li>
+				<li><b>Frameworki:</b> Bootstrap, W3.CSS</li>
+				<li><b>Bazy danych:</b> MySQL</li>
+				<li><b>Języki programowania:</b> PHP5</li>
+				</ul>
+				
+				<h4>Umiejętności dodatkowe:</h4>
+				<ul class="w3-ul">
+				<li><b>Obsługa i administracja systemów operacyjnych:</b> Windows</li>
+				<li><b>Korzystanie z edytorów kodów źródłowych:</b> Notepad++, HateML Pro</li>
+				<li><b>Znajomość języków obcych:</b> język angielski, poziom: średnio-zaawansowany</li>
+				</ul>
+				
+				<h4>Inne:</h4>
+				<p>Poza stronami internetowymi, interesuję się również tworzeniem konfiguracji komputerowych oraz grami komputerowymi. 
+				Jeśli chodzi o&nbsp;zainteresowania nieinformatyczne to&nbsp;stawiam na&nbsp;piłkę nożną.</p>
+				
 			</div>
+	
+	<!-- PROJEKTY -->  
+	        <div id="projekty" class="w3-container w3-card-2 w3-white section" title="Projekty" style="display:none">
+				<h1 class="w3-text-grey w3-padding-16"><i class="fa fa-save fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projekty</h1>
+				<p>Coming Soon!</p>
+			</div>
+	
     <!-- END RIGHT -->
     </div>
     
@@ -139,7 +167,7 @@
 </div>
 
 <footer class="w3-container w3-theme-d2 w3-padding-12" style="padding-left:12px">
-  <p id="footer">Karol Jeziorowski &#8226; strona stworzona w oparciu o framework: <a id="w3c" href="http://www.w3schools.com/w3css/" target="_blank">W3.CSS</a> &#8226; 2017</p>
+  <p id="footer">&copy; Karol Jeziorowski &#8226; strona stworzona w oparciu o framework: <a id="w3c" href="http://www.w3schools.com/w3css/" target="_blank">W3.CSS</a> &#8226; 2017</p>
 </footer>
 
 

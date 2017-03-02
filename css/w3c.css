@@ -361,6 +361,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-theme-border {border-color:#3f51b5 !important}
 .w3-hover-theme:hover {color:#fff !important; background-color:#3f51b5 !important}
 
+
 #footer {color:#fff; font-size:0.875em; text-align:center;}
 #w3c {text-decoration: none;}
 #w3c:hover {text-decoration: underline;}
